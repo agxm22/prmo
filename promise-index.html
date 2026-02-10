@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Promise You Forever 💖</title>
+    <link rel="stylesheet" href="promise-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Falling hearts in background -->
+    <div class="particles-container" id="particlesContainer"></div>
+    
+    <!-- Main content -->
+    <div class="page-wrapper">
+        <!-- Hero Section with Beating Heart -->
+        <section class="hero-section">
+            <div class="glow-decoration glow-top-left"></div>
+            <div class="glow-decoration glow-top-right"></div>
+            
+            <div class="hero-content">
+                <h1 class="main-title">Happy Promise Day</h1>
+                <p class="subtitle">My heart beats for you, today and always 💖</p>
+                
+                <!-- Beating Heart Animation -->
+                <div class="heart-container" id="heartContainer">
+                    <!-- Animated Heart -->
+                    <div class="heart-shape" id="heartShape">
+                        <div class="heart-left"></div>
+                        <div class="heart-right"></div>
+                        
+                        <!-- Heartbeat pulse effect -->
+                        <div class="heartbeat-pulse pulse-1"></div>
+                        <div class="heartbeat-pulse pulse-2"></div>
+                        <div class="heartbeat-pulse pulse-3"></div>
+                    </div>
+                    
+                    <!-- Promise text inside heart -->
+                    <div class="heart-text" id="heartText">
+                        <p class="promise-word">Forever</p>
+                    </div>
+                </div>
+                
+                <!-- Make Promise Button -->
+                <button class="promise-button" id="promiseButton">
+                    <span>💖 Make a Promise 💖</span>
+                </button>
+                
+                <!-- Promise Message (appears after button click) -->
+                <div class="promise-message" id="promiseMessage">
+                    <p class="promise-title">My Promise to You:</p>
+                    <p class="promise-text">
+                        I promise to love you in the sunshine and the rain,
+                        in the good times and the hard times.
+                        I promise to always be by your side,
+                        to support your dreams and celebrate your victories.
+                    </p>
+                    <p class="promise-text">
+                        I promise to make you smile when you're sad,
+                        to hold your hand through every journey,
+                        and to choose you every single day.
+                    </p>
+                    <p class="promise-signature">Forever and always, 💖</p>
+                </div>
+                
+                <p class="date">Promise Day • February 11, 2026</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>A promise sealed with love 💖</p>
+            <p class="footer-date">Promise Day 2026</p>
+        </footer>
+    </div>
+
+    <script src="promise-script.js"></script>
+</body>
+</html>
